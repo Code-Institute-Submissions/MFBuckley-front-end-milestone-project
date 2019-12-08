@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------------------------------Colours*/
+
+
+
+
+/*----------------------------------------------------Header*/
+header {
+    border: solid #000 2px;
+    padding: 50px;
+    text-align: center;
+    color: #000
+    
+}
+
+ {
+    border: solid #000 1px
+}
+#nav i {
+    float: left;
+}
+
+/*-----------------------------------------------------Home*/
+.logo {
+    background: url("../images/frankfurt-skyline.jpg");
+    background-repeat: no-repeat;
+    border: solid #000 2px;
+    width: 850px;
+    height: 500px;
+    margin: auto;
+}
+
+/*-----------------------------------------------------All Events*/
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------About*/
+
+
+
+
+
+/*-----------------------------------------------------Contact*/
+
+#map {
+    padding: 100px;
+}
+
+#contact-details {
+    display: inlines;
+}
+
+
+
+/*-----------------------------------------------------Footer*/
+footer {
+    
+    border: solid #000 2px;
+    
+}
+
+i {
+    float: right;
+}
