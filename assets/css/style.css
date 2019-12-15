@@ -2,7 +2,9 @@
 
 /*----------------------------------------------------Colours*/
 
-
+.ui-menu-color-home {
+    background-color: #e2dcba
+}
 
 
 /*----------------------------------------------------Header*/
@@ -13,19 +15,20 @@ header {
     color: #000
     
 }
+/*----------------------------------------------------Nav bar*/
 
-
-#nav i {
-    float: left;
+.menuitem {
+    
+    text-align: center;
 }
+
+
+
 
 /*-----------------------------------------------------Home*/
 .logo {
-    background: url("../images/frankfurt-skyline1.jpg")
-    background-repeat: no-repeat;
-    width: 850px;
-    height: 500px;
-    margin: auto;
+    background: url("..assets/images/frankfurt-skyline1.jpg")
+    Padding: 50px;
 }
 
 /*-----------------------------------------------------All Events*/
@@ -45,11 +48,14 @@ header {
 
 /*-----------------------------------------------------Contact*/
 
-#list-inline contact {
-    display: inline;
+.container {
+    display: inline-block;
+    border: solid #000 2px;
 }
 
-
+#contact-details {
+    text-align: center;
+}
 
 /*-----------------------------------------------------Footer*/
 footer {
