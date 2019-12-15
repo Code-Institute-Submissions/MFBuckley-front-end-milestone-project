@@ -14,9 +14,7 @@ header {
     
 }
 
- {
-    border: solid #000 1px
-}
+
 #nav i {
     float: left;
 }
@@ -25,7 +23,6 @@ header {
 .logo {
     background: url("../images/frankfurt-skyline.jpg");
     background-repeat: no-repeat;
-    border: solid #000 2px;
     width: 850px;
     height: 500px;
     margin: auto;
@@ -53,7 +50,7 @@ header {
 }
 
 #contact-details {
-    display: inlines;
+    display: inline;
 }
 
 
