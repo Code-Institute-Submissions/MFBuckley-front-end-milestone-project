@@ -1,26 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:50,100,200,300,400,500,600,700|Exo:50,100,200,300,400,500,600,700');
+
+body {
+    margin: 0;
+}
 
 /*----------------------------------------------------Colours*/
 
-.ui-menu-color-home {
-    background-color: #e2dcba
-}
+
 
 
 /*----------------------------------------------------Header*/
 header {
     border: solid #000 2px;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
-    color: #000
+    color: #000;
+    
     
 }
 /*----------------------------------------------------Nav bar*/
-
 .menuitem {
     
-    text-align: center;
+    font-size: 24px;
+    
 }
+
 
 
 
@@ -30,7 +34,8 @@ header {
     background: url("../images/frankfurt-skyline1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    Padding: 50px;
+    padding: 400px;
+    transition: all 2s ease-in-out;
 }
 
 /*-----------------------------------------------------All Events*/
@@ -50,19 +55,32 @@ header {
 
 /*-----------------------------------------------------Contact*/
 
-.container {
+.googlemap {
     display: inline-block;
-    border: solid #000 2px;
+    text-align: center;   
 }
 
-.list-inline-item {
+.contact {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
     text-align: center;
+    padding: 50px;
 }
 
+.social-links {
+    text-align: center;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
 /*-----------------------------------------------------Footer*/
 footer {
     padding: 20px;
-    border: solid #000 2px;   
+    font-family: "Exo", sans-serif;
+    font-weight: 50;   
     text-align: center; 
+    
 }
 

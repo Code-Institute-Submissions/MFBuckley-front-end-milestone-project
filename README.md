@@ -2,6 +2,10 @@
 Course: Full Stack Web Developer - Code Institute Dublin Ireland.
 Front End milestone project using HTML,CSS & Bootstrap.
 
+Inspiration
+https://www.victorianopera.com.au/
+https://www.iwoca.de/
+
 
 Online References:
 https://www.freecodecamp.org/news/learn-the-bootstrap-4-grid-system-in-10-minutes-e83bfae115da/
