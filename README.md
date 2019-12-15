@@ -1,6 +1,6 @@
-# user-centric-milestone-project
-Course: Full Stack Web Developer - Code Institute Dublin Ireland
-Front End milestone project using HTML,CSS & Bootstrap
+# Front End Milestone Project
+Course: Full Stack Web Developer - Code Institute Dublin Ireland.
+Front End milestone project using HTML,CSS & Bootstrap.
 
 
 Online References:
