@@ -21,7 +21,7 @@ header {
 
 /*-----------------------------------------------------Home*/
 .logo {
-    background: url("../images/frankfurt-skyline.jpg");
+    background: url("../images/frankfurt-skyline1.jpg")
     background-repeat: no-repeat;
     width: 850px;
     height: 500px;
@@ -45,11 +45,7 @@ header {
 
 /*-----------------------------------------------------Contact*/
 
-#map {
-    padding: 100px;
-}
-
-#contact-details {
+#list-inline contact {
     display: inline;
 }
 
