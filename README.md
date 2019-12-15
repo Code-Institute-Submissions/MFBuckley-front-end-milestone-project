@@ -1,8 +1,11 @@
 # user-centric-milestone-project
-Front End milestone project from Code Institute using HTML,CSS & Bootstrap
+Course: Full Stack Web Developer - Code Institute Dublin Ireland
+Front End milestone project using HTML,CSS & Bootstrap
+
 
 Online References:
 https://www.freecodecamp.org/news/learn-the-bootstrap-4-grid-system-in-10-minutes-e83bfae115da/
+https://getbootstrap.com/docs/4.0/extend/approach/#classes
 
 Images 
 Frankfurt Skyline at night:

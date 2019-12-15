@@ -27,7 +27,9 @@ header {
 
 /*-----------------------------------------------------Home*/
 .logo {
-    background: url("..assets/images/frankfurt-skyline1.jpg")
+    background: url("../images/frankfurt-skyline1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     Padding: 50px;
 }
 
@@ -53,17 +55,14 @@ header {
     border: solid #000 2px;
 }
 
-#contact-details {
+.list-inline-item {
     text-align: center;
 }
 
 /*-----------------------------------------------------Footer*/
 footer {
-    
-    border: solid #000 2px;
-    
+    padding: 20px;
+    border: solid #000 2px;   
+    text-align: center; 
 }
 
-i {
-    float: right;
-}
