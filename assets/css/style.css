@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:50,100,200,300,400,500,600,700|Exo:50,100,200,300,400,500,600,700');
 
 body {
-    margin: 0;
+    margin: auto;
 }
 
 /*----------------------------------------------------Colours*/
@@ -11,8 +11,7 @@ body {
 
 /*----------------------------------------------------Header*/
 header {
-    border: solid #000 2px;
-    padding: 30px;
+    padding: 60px;
     text-align: center;
     color: #000;
     
@@ -34,21 +33,297 @@ header {
     background: url("../images/frankfurt-skyline1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 400px;
+    width: 440px;
+    height: 600px;
+    margin: 100px;
     transition: all 2s ease-in-out;
 }
 
 /*-----------------------------------------------------All Events*/
 
+.cinderella {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/ballet.png");
+    background-position: center;
+    background-repeat: no-repeat;  
+}
 
+.cinderella-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
 
+.swan-lake {
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/swan_lake.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;   
+}
 
+.swan-lake-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
 
+.la-bayadere  {
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/la_bayadere.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.la-bayadere-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
 
+.nativity {
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/nativity.jpg");   
+    background-position: center;
+    background-repeat: no-repeat; 
+}
 
+.nativity-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.lady-windermere {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;  
+    background: url("../images/lady_windermere.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lady-windermere-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.much-ado {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/much_ado.jpg");  
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.much-ado-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.clara-schumann {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;  
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/orchestra.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clara-schumann-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.classical {
+    display: inline-block;
+    text-align: center; 
+    height: 350px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/composers.png");  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.classical-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.vienna {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/vienna_philharmonic.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.competition-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.london {
+    display: inline-block;
+    text-align: center; 
+    height: 350px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/london_symphony.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gospel-choir {
+    display: inline-block;
+    text-align: center;
+    height: 350px;   
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/choir.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gospel-choir-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.monteverdi-choir {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/monteverdi.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.monteverdi-choir-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.wells-choir {
+    display: inline-block;
+    text-align: center; 
+    height: 350px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/carols.gif"); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wells-choir-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.cats {
+    display: inline-block;
+    text-align: center;
+    height: 350px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/cats.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cats-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.les-miserables {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/les-miserables.jpg");  
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.les-miserables-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+
+.phantom {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background: url("../images/phantom.jpg");  
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.phantom-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
 /*-----------------------------------------------------About*/
-
 
 
 
@@ -61,7 +336,7 @@ header {
 }
 
 .contact {
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-align: center;
     padding: 50px;
