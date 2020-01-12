@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:50,100,200,300,400,500,600,700|Exo:50,100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
 
 body {
-    margin: auto;
+    width: 100%;
+    background-color: #e2dcba;
 }
 
 /*----------------------------------------------------Colours*/
@@ -11,18 +13,36 @@ body {
 
 /*----------------------------------------------------Header*/
 header {
+    position: fixed;
+    z-index: 1;
     padding: 60px;
     text-align: center;
     color: #000;
-    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 150%
     
 }
 /*----------------------------------------------------Nav bar*/
-.menuitem {
-    
-    font-size: 24px;
+.menuitem { 
+    font-size: 90%;
+    letter-spacing: 4px;
+    padding: 40px
     
 }
+
+.menuitem span {
+    color: #000;
+    font-weight: 100;
+}
+
+.menuitem a:hover {
+    text-decoration: none;
+    color: #555555;
+    transition: all .5s ease-in-out;
+}
+
+
 
 
 
@@ -31,12 +51,15 @@ header {
 /*-----------------------------------------------------Home*/
 .logo {
     background: url("../images/frankfurt-skyline1.jpg");
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     width: 440px;
-    height: 600px;
-    margin: 100px;
-    transition: all 2s ease-in-out;
+    height: 500px;
+    z-index: 0;
+}
+
+.logo a img:hover {
+    transform: scale (1.25);
 }
 
 /*-----------------------------------------------------All Events*/
@@ -45,10 +68,8 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-top: 60px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    width: 400px;
+    margin: 60px 100px 100px 60px;
     background: url("../images/ballet.png");
     background-position: center;
     background-repeat: no-repeat;  
@@ -58,15 +79,14 @@ header {
     font-family: "Roboto", sans-serif;
     text-align: center; 
     padding: 50px;
+    
 }
 
 .swan-lake {
     display: inline-block;
     text-align: center;
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/swan_lake.jpg"); 
     background-position: center;
     background-repeat: no-repeat;   
@@ -82,9 +102,7 @@ header {
     display: inline-block;
     text-align: center;
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/la_bayadere.jpg");    
     background-position: center;
     background-repeat: no-repeat;
@@ -100,9 +118,7 @@ header {
     display: inline-block;
     text-align: center;
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/nativity.jpg");   
     background-position: center;
     background-repeat: no-repeat; 
@@ -118,9 +134,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;  
+    margin: 0px 100px 100px 60px; 
     background: url("../images/lady_windermere.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
@@ -136,9 +150,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/much_ado.jpg");  
     background-position: center;
     background-repeat: no-repeat; 
@@ -154,9 +166,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;  
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/orchestra.png"); 
     background-position: center;
     background-repeat: no-repeat;
@@ -172,9 +182,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px; 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/composers.png");  
     background-position: center;
     background-repeat: no-repeat;
@@ -190,9 +198,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/vienna_philharmonic.jpg");  
     background-position: center;
     background-repeat: no-repeat;
@@ -207,10 +213,7 @@ header {
 .london {
     display: inline-block;
     text-align: center; 
-    height: 350px; 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/london_symphony.jpg");  
     background-position: center;
     background-repeat: no-repeat;
@@ -220,9 +223,7 @@ header {
     display: inline-block;
     text-align: center;
     height: 350px;   
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/choir.png"); 
     background-position: center;
     background-repeat: no-repeat;
@@ -238,9 +239,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/monteverdi.jpg");   
     background-position: center;
     background-repeat: no-repeat;
@@ -256,9 +255,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px; 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/carols.gif"); 
     background-position: center;
     background-repeat: no-repeat;
@@ -274,9 +271,7 @@ header {
     display: inline-block;
     text-align: center;
     height: 350px; 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/cats.jpg");   
     background-position: center;
     background-repeat: no-repeat;
@@ -292,9 +287,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/les-miserables.jpg");  
     background-position: center;
     background-repeat: no-repeat; 
@@ -310,9 +303,7 @@ header {
     display: inline-block;
     text-align: center; 
     height: 350px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 60px;
+    margin: 0px 100px 100px 60px;
     background: url("../images/phantom.jpg");  
     background-position: center;
     background-repeat: no-repeat; 
@@ -331,20 +322,22 @@ header {
 /*-----------------------------------------------------Contact*/
 
 .googlemap {
+    
     display: inline-block;
-    text-align: center;   
+    text-align: center; 
+    border: solid 1px #000;
 }
 
 .contact {
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
     text-align: center;
     padding: 50px;
 }
 
 .social-links {
     text-align: center;
-    padding: 50px;
+    letter-spacing: 20px;
+    padding-top: 50px; 
 }
 
 ul {
@@ -353,8 +346,8 @@ ul {
 /*-----------------------------------------------------Footer*/
 footer {
     padding: 20px;
-    font-family: "Exo", sans-serif;
-    font-weight: 50;   
+    font-family: "Open+Sans", sans-serif;
+      
     text-align: center; 
     
 }
