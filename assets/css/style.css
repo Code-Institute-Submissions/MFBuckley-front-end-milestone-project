@@ -14,10 +14,10 @@ body {
 /*----------------------------------------------------Header*/
 header {
     position: fixed;
-    z-index: 1;
     padding: 60px;
     text-align: center;
     color: #000;
+    
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 150%
@@ -25,14 +25,11 @@ header {
 }
 /*----------------------------------------------------Nav bar*/
 .menuitem { 
-    font-size: 90%;
-    letter-spacing: 4px;
-    padding: 40px
-    
+    font-size: 50%;
+    letter-spacing: 4px;    
 }
 
-.menuitem span {
-    color: #000;
+.menuitem span i {
     font-weight: 100;
 }
 
@@ -55,7 +52,7 @@ header {
     background-position: center;
     width: 440px;
     height: 500px;
-    z-index: 0;
+    z-index: -1;
 }
 
 .logo a img:hover {
@@ -334,21 +331,27 @@ header {
     padding: 50px;
 }
 
-.social-links {
-    text-align: center;
-    letter-spacing: 20px;
-    padding-top: 50px; 
+/*-----------------------------------------------------Footer*/
+
+
+footer {
+    height: 150px;
+    padding: 20px;
+    font-family: "Open+Sans", sans-serif;
+    text-align: center; 
+    color: #000;
 }
 
 ul {
     list-style-type: none;
 }
-/*-----------------------------------------------------Footer*/
-footer {
-    padding: 20px;
-    font-family: "Open+Sans", sans-serif;
-      
-    text-align: center; 
-    
+
+.social-links {
+    text-align: center;
 }
 
+ .social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+}
