@@ -3,7 +3,7 @@
 
 body {
     width: 100%;
-    background-color: #e2dcba;
+    background-color: #c99868;
 }
 
 /*----------------------------------------------------Colours*/
@@ -14,31 +14,22 @@ body {
 /*----------------------------------------------------Header*/
 header {
     position: fixed;
+    height:30%;
     padding: 60px;
     text-align: center;
-    color: #000;
-    
+    color: #000;   
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 150%
     
 }
 /*----------------------------------------------------Nav bar*/
-.menuitem { 
-    font-size: 50%;
-    letter-spacing: 4px;    
-}
 
-.menuitem span i {
-    font-weight: 100;
+i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
-
-.menuitem a:hover {
-    text-decoration: none;
-    color: #555555;
-    transition: all .5s ease-in-out;
-}
-
 
 
 
@@ -335,7 +326,7 @@ header {
 
 
 footer {
-    height: 150px;
+    height:10%;
     padding: 20px;
     font-family: "Open+Sans", sans-serif;
     text-align: center; 
