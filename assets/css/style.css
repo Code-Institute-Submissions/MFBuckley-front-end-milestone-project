@@ -13,22 +13,40 @@ body {
 
 /*----------------------------------------------------Header*/
 header {
+    
+    font-family: "Roboto", sans-serif;
     position: fixed;
-    height:30%;
-    padding: 60px;
-    text-align: center;
+    width: 100%;
     color: #000;   
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 150%
+    font-size: 150%;
+    padding: 3rem;
     
 }
-/*----------------------------------------------------Nav bar*/
 
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+/*----------------------------------------------------Nav bar*/
+.list-inline-item {
+    display: inline;
+}
+
+.menuitem {
+    text-align: center;
+}
+
+
+span {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
 i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    text-align: center;
+    color: #000;
 }
 
 
@@ -302,8 +320,25 @@ i {
     text-align: center; 
     padding: 50px;
 }
-/*-----------------------------------------------------About*/
 
+/*-----------------------------------------------------Coming Soon*/
+.coming-soon {
+    display: inline-block;
+    text-align: center; 
+    height: 350px;
+    margin: 0px 100px 100px 60px;
+}
+
+.coming-soon-description {
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    padding: 50px;
+}
+/*-----------------------------------------------------Booking Form*/
+form {
+    width: 50%; 
+    margin: auto;
+}
 
 
 
@@ -313,7 +348,7 @@ i {
     
     display: inline-block;
     text-align: center; 
-    border: solid 1px #000;
+    
 }
 
 .contact {
@@ -339,6 +374,7 @@ ul {
 
 .social-links {
     text-align: center;
+    color:#000;
 }
 
  .social-links i {
