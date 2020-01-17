@@ -19,7 +19,7 @@
                 <div class="col">
                     <ul id="nav" class="text-center list-inline menucontainer">
                         <li class="col list-inline-item menuitem">
-                        <a href="index.html"><span>Home<i class="fas fa-home fa-sm"></i></span></a>                        
+                        <a href="index.html#logo"><span>Home<i class="fas fa-home fa-sm"></i></span></a>                        
                         </li>                    
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="col">
                     <ul id="nav" class="list-inline menucontainer">
                         <li class="col list-inline-item menuitem">
-                        <a href="index.html"><span>Contact<i class="fas fa-at fa-sm"></i></span></a>
+                        <a href="index.html#map"><span>Contact<i class="fas fa-at fa-sm"></i></span></a>
                         </li>                    
                     </ul>
                 </div>
@@ -51,7 +51,7 @@
                 <div class="col">
                     <ul id="nav" class="list-inline menucontainer">
                         <li class="col-3 ui-menu-color-home list-inline-item menuitem">
-                        <a href="index.html"><span>Upcoming <i class="far fa-grin fa-sm"></i></span></a>
+                        <a href="index.html#ytvid"><span>Upcoming <i class="far fa-grin fa-sm"></i></span></a>
                         </li>                   
                     </ul>
                 </div>
@@ -92,9 +92,10 @@
                         <input type="text" class="form-control" placeholder="Zip">
                     </div>
                 </div> 
+                <br></br>
                 <div class="form-group">
                     <label>Select Event</label>
-                    <select class="form-control" id="selectForm">
+                    <select class="form-control" id="selectEvent">
                         <option>Cinderella</option>
                         <option>Swan Lake</option>
                         <option>La Bayadère</option>
@@ -112,15 +113,47 @@
                         <option>Phantom of the Opera</option>
                     </select>
                 </div>
+                <div class="form-group">
+                    <label>Number of Tickets</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                <label>Total Cost: </label><input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+                <br></br>
+                <div class="form-row">
+                    <label>Payment Options</label>
+                 </div>
                 <div class="form-row credit-card">
-                    <div class="col-8">
-                        <input type="text" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Credit Card Number">
                     </div>
-                    <div class="col">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Expiry Date">
+                    </div>
+                    <div class="col-md-2">
                         <input type="text" class="form-control" placeholder="CSV">
                     </div>
+                    <br></br>
+                    <div class= "row no-gutters">
+                         <div class="col">
+                            <a target="_blank" href="https://www.paypal.com/uk/home" <i class="fab fa-cc-paypal fa-3x"></i></a>
+                            <a target="_blank" href="https://stripe.com/de"<i class="fab fa-cc-stripe fa-3x"></i></a>
+                    </div>
+                    
                 </div>             
             </form>
+            
+            
      
     </section>
 
@@ -133,7 +166,7 @@
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.youtube.com/">
-                                <i class="fab fa-youtube fa-lg"></i>
+                                <i class="fab fa-youtube fa-2x"></i>
                                 <span class="sr-only">youtube</span>
                             </a>
                         </li>

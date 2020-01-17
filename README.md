@@ -17,6 +17,8 @@ Online References:
 
 https://getbootstrap.com/docs
 
+https://visme.co/blog/pastel-colors/
+
 https://en.wikipedia.org/wiki/Category:Male_composers
 
 https://en.wikipedia.org/wiki/List_of_female_composers_by_birth_date#1701%E2%80%931750
