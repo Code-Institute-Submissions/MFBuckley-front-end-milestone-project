@@ -13,21 +13,23 @@ body {
 
 /*----------------------------------------------------Header*/
 header {
-    
+    background: url("../images/starry-sky.jpg") no-repeat;
     font-family: "Roboto", sans-serif;
     position: fixed;
     width: 100%;
-    color: #000;   
+    color: #fff;   
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 150%;
     padding: 3rem;
+    z-index: 1;
     
 }
 
 h1 {
     text-align: center;
     padding: 1rem;
+    z-index: 1;
 }
 /*----------------------------------------------------Nav bar*/
 .list-inline-item {
@@ -38,6 +40,9 @@ h1 {
     text-align: center;
 }
 
+.menuitem a:hover {
+    border-bottom: 1px solid #fff;
+}
 
 span {
     color: #000;
@@ -56,12 +61,13 @@ i {
 
 /*-----------------------------------------------------Home*/
 .logo {
-    background: url("../images/frankfurt-skyline1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    
+    background: url("../images/frankfurt-skyline1.jpg") no-repeat center;
+    position: relative;
     width: 440px;
     height: 500px;
-    z-index: -1;
+    z-index: 0;
+    padding-top: 70%;
 }
 
 .logo a img:hover {
@@ -338,6 +344,8 @@ i {
 form {
     width: 50%; 
     margin: auto;
+    padding-top: 20%;
+    
 }
 
 

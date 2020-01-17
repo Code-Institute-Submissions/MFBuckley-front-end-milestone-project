@@ -2,18 +2,20 @@
 Course: Full Stack Web Developer - Code Institute Dublin Ireland.
 Front End milestone project using HTML,CSS & Bootstrap.
 
+Fake Theater Website showing whats on, when, location and booking
+
 Inspiration
 A personal interest in Culture and the Arts and...
 
 https://www.victorianopera.com.au/
 
-https://www.iwoca.de/
+
 
 
 Online References:
-https://www.freecodecamp.org/news/learn-the-bootstrap-4-grid-system-in-10-minutes-e83bfae115da/
 
-https://getbootstrap.com/docs/4.0/extend/approach/#classes
+
+https://getbootstrap.com/docs
 
 https://en.wikipedia.org/wiki/Category:Male_composers
 
