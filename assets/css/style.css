@@ -68,7 +68,7 @@ i {
     
     background: url("../images/frankfurt-skyline1.jpg") no-repeat center;
     position: relative;
-    width: 600px;
+    width: 70%;
     height: 500px;
     z-index: 0;
     padding-top: 70%;
@@ -368,17 +368,14 @@ span .dropdown:hover {
     padding: 5%;
 }
 /*-----------------------------------------------------Booking Form*/
-form {
-    width: 50%; 
-    margin: auto;
+.center-form {  
     padding-top: 20%;
-    padding-bottom: 5%;
-    
+    margin: 0 auto;
+    max-width: 50%;
 }
 
-form a {
-    color:#2a2a2a;
-    text-decoration: none;
+.form-row {
+    color: #fff;
 }
 
 
@@ -413,9 +410,9 @@ ul {
     list-style-type: none;
 }
 
-.social-links {
+.social-links i {
     text-align: center;
-    color:#000;
+    color:#2a2a2a;
     letter-spacing: 40px;
 }
 
