@@ -17,6 +17,7 @@ header {
     font-family: "Roboto", sans-serif;
     position: fixed;
     width: 100%;
+    height: auto;
     color: #000;   
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -32,16 +33,18 @@ h1 {
     z-index: 1;
 }
 /*----------------------------------------------------Nav bar*/
-.navbar {
+.list-inline-item {
+    display: inline;
+}
+
+.list-inline-item a {
     text-decoration: none;
 }
 
-.navbar a.active {
-    background-color: #2a2a2a;
+.list-inline-item a.active {
     color: #70ae98;
+    background-color: #2a2a2a;
 }
-
-
 
 span {
     color: #000;
@@ -93,9 +96,16 @@ span .dropdown:hover {
 
 .cinderella {
     background: url("../images/ballet.png");
-    background-position: center;
     background-repeat: no-repeat;  
+    border-radius: 10px; 
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+
 
 .cinderella-description {
     font-family: "Roboto", sans-serif;
