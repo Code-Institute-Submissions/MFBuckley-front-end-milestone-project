@@ -1,8 +1,9 @@
 # Front End Milestone Project
 Course: Full Stack Web Developer - Code Institute Dublin Ireland.
-Front End milestone project using HTML,CSS & Bootstrap.
+First front-end milestone project.
 
-Fake Theater Website showing whats on, when, location and booking
+Fake Theater Website showing whats on, when, location and booking.
+Created using HTML,CSS & Bootstrap.
 
 Inspiration
 A personal interest in Culture and the Arts and...
