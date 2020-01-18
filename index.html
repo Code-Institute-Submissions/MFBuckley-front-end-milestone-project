@@ -15,10 +15,12 @@
     <header>
         <div class="row">
             <div class="col">
-                <h1>Frankfurt Theater House</h1>
+                <h1 id="heading">Frankfurt Theater House</h1>
             </div>
         </div>
-<!----------------------------------------------------------------------------------Nav Bar-->    
+<!----------------------------------------------------------------------------------Nav Bar--> 
+<!---One Bootstrap row with a list of 5 columns--------------------------------------->  
+<!---Columns Home, Booking, Contact, Upcoming contain links ---------------------------------------> 
         <div class="row">  
             <div class="col">
                 <ul class="text-center list-inline menucontainer">
@@ -35,7 +37,7 @@
                     <a href="index.html#map"><span>Contact</span></a>
                     </li>    
                      <li class="col list-inline-item menuitem active">
-                    <a href="index.html#ytvid"><span>Upcoming</span></a>
+                    <a href="index.html#upcoming"><span>Upcoming</span></a>
                     </li>                   
                 </ul>
              </div>
@@ -43,12 +45,24 @@
         
     </header>
 <!----------------------------------------------------------------------------------Home-->
+<!---I chose the iconic nighttime view of the skyline of Frankfurt am Main as my logo----->
     <section id="logo" class="container-fluid">
         <div class="row">              
             <a href="index.html" class="col logo"></a>
        </div> 
     </section>
 <!----------------------------------------------------------------------------------Events-->
+<!--Examples of Ballets, Plays, Instrumental Music, Choirs, Musicals in individual containers-->
+<!---Each Bootstrap row contains 2 columns --------------------------------------->
+
+    <section id="ytvid" class="container">
+        <div class="row">
+            <div  class="col text-center text-white">
+            <h1 id="events">Events</h1>
+            </div>
+        </div>
+    </section>
+    
     <section class="container">
         <div class="row">
             <div class="col-md-6 cinderella">
@@ -150,17 +164,14 @@
     </section>
     <section class="container">
         <div class="row">
-            <div class="col-md-4 vienna">
+            <div class="col-md-6 symphony">
                
             </div>
-            <div class="col-md-4 competition-description">
+            <div class="col-md-6 competition-description">
                 <h2>Competition Time</h2>
                 <p>Have your say on Vienna Philharmonic Orchestra vs. London Symphony Orchestra. 
-                Which orchestra appears more to you. Tickets €15.</p>
+                Which orchestra appeals more to you. Tickets €15.</p>
                 <a class="btn btn-danger" href="booking-page.html" role="button">Book Now</a>
-            </div>
-            <div class="col-md-4 london">
-                
             </div>
         </div>
     </section>
@@ -192,8 +203,7 @@
     </section>
     <section class="container"> 
         <div class="row">
-            <div class="col-md-6 wells-choir">
-               
+            <div class="col-md-6 wells-choir">   
             </div>
             <div class="col-md-6 wells-choir-description">
                 <h2>Wells Cathedral Choir</h2>
@@ -205,8 +215,7 @@
     </section>
     <section class="container">
         <div class="row">
-            <div class="col-md-6 cats">
-                
+            <div class="col-md-6 cats">            
             </div>
             <div class="col-md-6 cats-description">
                 <h2>Cats the Musical</h2>
@@ -218,8 +227,7 @@
     </section>
     <section class="container">
         <div class="row">
-            <div class="col-md-6 les-miserables">
-                
+            <div class="col-md-6 les-miserables">        
             </div>
             <div class="col-md-6 les-miserables-description">
                 <h2>Les Misérables</h2>
@@ -232,8 +240,7 @@
     </section>
     <section class="container">
          <div class="row">
-            <div class="col-md-6 phantom">
-                
+            <div class="col-md-6 phantom">   
             </div>
             <div class="col-md-6 phantom-description">
                 <h2>Phantom of the Opera</h2>
@@ -242,22 +249,19 @@
                 <a class="btn btn-danger" href="booking-page.html" role="button">Book Now</a>
         </div>
     </section>
-    <section id="ytvid" class="container">        
-        <div class="row">
-            <div class="col-md-6 coming-soon">
-                <iframe width="500" height="360" src="https://www.youtube.com/embed/4hCAZimJL8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-            </div>
-            <div class="col-md-6 coming-soon-description">
-                <h2>Megacone</h2>
-                <p>A young Irish instrumental rockband performing live. Here's a taste! 
-                Performance dates to be confirmed.Tickets €15.</p>
-            </div>
-        </div>
-    </section>
+<!----------------------------------------------------------------------------------End of Events-->
+
 
     
 <!----------------------------------------------------------------------------------Contact-->
-    <section id="map" class="container">
+<!---Google map and address, email, telephone details --------------------------------------->
+         <div class="row">
+            <div id="map" class="col text-center text-white">
+            <h1 id="contact">Contact</h1>
+            </div>
+        </div>
+
+    <section class="container">
         <div class="row">
             <div class="col-md-6 googlemap">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.7312781003884!2d8.71133371591189!3d50.12875021837313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ef26d147fb3%3A0x839a0ea74c5f1465!2sTheaterGrueneSosse!5e0!3m2!1sen!2sde!4v1576419066796!5m2!1sen!2sde" width="500" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -278,10 +282,35 @@
             </div>
     </section>
 
+<!----------------------------------------------------------------------------------Upcoming-->
+<!---Youtube video of Irish rock band "Megacone". With permission from lead guitarist Ross Kelly---->
+
+    <section class="container">
+        <div class="row">
+            <div class="col text-center text-white">
+            <h1 id="upcoming">Upcoming</h1>
+            </div>
+        </div>
+    </section>
+    <section  class="container">        
+        <div class="row">
+            <div class="col-md-6 coming-soon">
+                
+                <iframe width="500" height="360" src="https://www.youtube.com/embed/4hCAZimJL8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            </div>
+            <div class="col-md-6 coming-soon-description">
+                <h2>Megacone</h2>
+                <p>A young Irish instrumental rockband performing live. Here's a taste! 
+                Performance dates to be confirmed.Tickets €15.</p>
+            </div>
+        </div>
+    </section>
+
+
 <!----------------------------------------------------------------------------------Footer-->
 
     <footer>
-        <section class="container-fluid">       
+        <section class="container">       
             <div class="row">
                 <div class="col">
                     <ul class="list-inline social-links">

@@ -42,9 +42,7 @@ http://www.classical-music.com/article/best-recordings-monteverdi - Monteverdi I
 
 https://www.frenchasyoulikeit.com/learnfrenchchristmascarols/ - Christmas Carol
 
-https://en.wikipedia.org/wiki/London_Symphony_Orchestra
-
-https://en.wikipedia.org/wiki/Vienna_Symphony
+https://www.google.com/search?q=chicago+symphony+orchestra&rlz=1CANPDX_enDE872&sxsrf=ACYBGNRvfAOvQzY9C2Ms5ORz5nVnSoZ5_A:1579372380514&source=lnms&tbm=isch&sa=X&ved=2ahUKEwipoNXN5I3nAhWQPFAKHU4GA8oQ_AUoAnoECBAQBA&biw=1410&bih=813#imgrc=Ks74CQrXqQlwGM:
 
 https://www.amazon.com/Lady-Windermeres-Fan-about-Woman/dp/1983728659
 
