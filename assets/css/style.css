@@ -151,13 +151,12 @@ span {
 }
 
 .much-ado {
+    background: url("../images/much_ado.jpg"); 
     display: inline-block;
-    text-align: center; 
+    background-repeat: no-repeat;
     width: 500px;
     height: 400px;
-    background: url("../images/much_ado.jpg");  
-    background-position: center;
-    background-repeat: no-repeat; 
+      
 }
 
 .much-ado-description {
@@ -167,13 +166,14 @@ span {
 }
 
 .clara-schumann {
+    background: url("../images/orchestra.png"); 
     display: inline-block;
-    text-align: center; 
+    background-repeat: no-repeat; 
     width: 500px;
     height: 400px;
-    background: url("../images/orchestra.png"); 
-    background-position: center;
-    background-repeat: no-repeat;
+    
+    
+    
 }
 
 .clara-schumann-description {
@@ -183,13 +183,11 @@ span {
 }
 
 .classical {
+    background: url("../images/composers.png"); 
     display: inline-block;
-    text-align: center; 
-    width: 500;
-    height: 400px;
-    background: url("../images/composers.png");  
-    background-position: center;
     background-repeat: no-repeat;
+    width: 500;
+    height: 400px;      
 }
 
 .classical-description {
@@ -199,13 +197,11 @@ span {
 }
 
 .vienna {
+    background: url("../images/vienna_philharmonic.jpg"); 
     display: inline-block;
-    text-align: center; 
+    background-repeat: no-repeat; 
     height: 350px;
-    margin: 0px 100px 100px 60px;
-    background: url("../images/vienna_philharmonic.jpg");  
-    background-position: center;
-    background-repeat: no-repeat;
+    margin: 0px 100px 100px 60px;       
 }
 
 .competition-description {
@@ -215,22 +211,18 @@ span {
 }
 
 .london {
+    background: url("../images/london_symphony.jpg"); 
     display: inline-block;
-    text-align: center; 
-    margin: 0px 100px 100px 60px;
-    background: url("../images/london_symphony.jpg");  
-    background-position: center;
     background-repeat: no-repeat;
+    margin: 0px 100px 100px 60px;   
 }
 
 .gospel-choir {
+    background: url("../images/choir.png");
     display: inline-block;
-    text-align: center;
-    width: 500;
-    height: 400px;
-    background: url("../images/choir.png"); 
-    background-position: center;
     background-repeat: no-repeat;
+    width: 500;
+    height: 400px;    
 }
 
 .gospel-choir-description {
@@ -240,13 +232,11 @@ span {
 }
 
 .monteverdi-choir {
+    background: url("../images/monteverdi.jpg"); 
     display: inline-block;
-    text-align: center; 
+    background-repeat: no-repeat; 
     width: 500;
-    height: 400px;
-    background: url("../images/monteverdi.jpg");   
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 400px;   
 }
 
 .monteverdi-choir-description {
@@ -256,13 +246,11 @@ span {
 }
 
 .wells-choir {
-    display: inline-block;
-    text-align: center; 
-    width: 500;
-    height: 400px;
     background: url("../images/carols.jpg"); 
-    background-position: center;
+    display: inline-block;
     background-repeat: no-repeat;
+    width: 500;
+    height: 400px;   
 }
 
 .wells-choir-description {
@@ -272,13 +260,11 @@ span {
 }
 
 .cats {
+    background: url("../images/cats.jpg");
     display: inline-block;
-    text-align: center;
-    width: 500;
-    height: 400px;
-    background: url("../images/cats.jpg");   
-    background-position: center;
     background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;    
 }
 
 .cats-description {
@@ -288,13 +274,11 @@ span {
 }
 
 .les-miserables {
+    background: url("../images/les-miserables.jpg"); 
     display: inline-block;
-    text-align: center; 
-    width: 500;
-    height: 400px;
-    background: url("../images/les-miserables.jpg");  
-    background-position: center;
     background-repeat: no-repeat; 
+    width: 500px;
+    height: 400px;   
 }
 
 .les-miserables-description {
@@ -304,13 +288,11 @@ span {
 }
 
 .phantom {
+    background: url("../images/phantom.jpg"); 
     display: inline-block;
-    text-align: center; 
-    width: 500;
-    height: 400px;
-    background: url("../images/phantom.jpg");  
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;     
 }
 
 .phantom-description {
@@ -322,8 +304,7 @@ span {
 /*-----------------------------------------------------Coming Soon*/
 .coming-soon {
     display: inline-block;
-    text-align: center; 
-    height: 350px;
+    height: 400px;
     
 }
 
@@ -362,7 +343,6 @@ h4 {
 .googlemap {
     
     display: inline-block;
-    text-align: center; 
 }
 
 .contact {
