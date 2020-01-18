@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
 body {
@@ -22,7 +22,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 150%;
-    padding: 0.6rem;
+    padding: 0.7rem;
     z-index: 1;
     
 }
@@ -60,49 +60,29 @@ span {
 
 /*-----------------------------------------------------Home*/
 .logo {
-    
     background: url("../images/frankfurt-skyline1.jpg") no-repeat center;
     position: relative;
     width: 70%;
-    height: 500px;
     z-index: 0;
     padding-top: 70%;
 }
 
-.logo a img:hover {
-    transform: scale (1.25);
-}
+
 
 /*-----------------------------------------------------All Events*/
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+
+.container {
+    color: #fff;
 }
 
-
-span .dropdown:hover {
-  display: inline-block;
-  position: relative;
-}
-
-.container-fluid h2,p {
-    color:#fff;
-}
 
 .cinderella {
     background: url("../images/ballet.png");
     background-repeat: no-repeat;  
-    border-radius: 10px; 
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+  
 }
 
 
@@ -115,13 +95,11 @@ span .dropdown:hover {
 }
 
 .swan-lake {
-    display: inline-block;
-    text-align: center;
-    height: 350px;
-    margin: 0px 100px 100px 60px;
     background: url("../images/swan_lake.jpg"); 
-    background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 500px;
+    height: 400px;      
 }
 
 .swan-lake-description {
@@ -131,13 +109,11 @@ span .dropdown:hover {
 }
 
 .la-bayadere  {
-    display: inline-block;
-    text-align: center;
-    height: 350px;
-    margin: 0px 100px 100px 60px;
-    background: url("../images/la_bayadere.jpg");    
-    background-position: center;
+    background: url("../images/la_bayadere.jpg");
     background-repeat: no-repeat;
+    display: inline-block;
+    width: 500px;
+    height: 400px;
 }
 
 .la-bayadere-description {
@@ -147,13 +123,11 @@ span .dropdown:hover {
 }
 
 .nativity {
+    background: url("../images/nativity.jpg"); 
     display: inline-block;
-    text-align: center;
-    height: 350px;
-    margin: 0px 100px 100px 60px;
-    background: url("../images/nativity.jpg");   
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;     
 }
 
 .nativity-description {
@@ -163,13 +137,11 @@ span .dropdown:hover {
 }
 
 .lady-windermere {
+    background: url("../images/lady_windermere.jpg");
     display: inline-block;
-    text-align: center; 
-    height: 350px;
-    margin: 0px 100px 100px 60px; 
-    background: url("../images/lady_windermere.jpg"); 
-    background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    width: 500px;
+    height: 400px;       
 }
 
 .lady-windermere-description {
@@ -181,8 +153,8 @@ span .dropdown:hover {
 .much-ado {
     display: inline-block;
     text-align: center; 
-    height: 350px;
-    margin: 0px 100px 100px 60px;
+    width: 500px;
+    height: 400px;
     background: url("../images/much_ado.jpg");  
     background-position: center;
     background-repeat: no-repeat; 
@@ -197,8 +169,8 @@ span .dropdown:hover {
 .clara-schumann {
     display: inline-block;
     text-align: center; 
-    height: 350px;  
-    margin: 0px 100px 100px 60px;
+    width: 500px;
+    height: 400px;
     background: url("../images/orchestra.png"); 
     background-position: center;
     background-repeat: no-repeat;
@@ -213,8 +185,8 @@ span .dropdown:hover {
 .classical {
     display: inline-block;
     text-align: center; 
-    height: 350px; 
-    margin: 0px 100px 100px 60px;
+    width: 500;
+    height: 400px;
     background: url("../images/composers.png");  
     background-position: center;
     background-repeat: no-repeat;
@@ -254,8 +226,8 @@ span .dropdown:hover {
 .gospel-choir {
     display: inline-block;
     text-align: center;
-    height: 350px;   
-    margin: 0px 100px 100px 60px;
+    width: 500;
+    height: 400px;
     background: url("../images/choir.png"); 
     background-position: center;
     background-repeat: no-repeat;
@@ -270,8 +242,8 @@ span .dropdown:hover {
 .monteverdi-choir {
     display: inline-block;
     text-align: center; 
-    height: 350px;
-    margin: 0px 100px 100px 60px;
+    width: 500;
+    height: 400px;
     background: url("../images/monteverdi.jpg");   
     background-position: center;
     background-repeat: no-repeat;
@@ -286,9 +258,9 @@ span .dropdown:hover {
 .wells-choir {
     display: inline-block;
     text-align: center; 
-    height: 350px; 
-    margin: 0px 100px 100px 60px;
-    background: url("../images/carols.gif"); 
+    width: 500;
+    height: 400px;
+    background: url("../images/carols.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -302,8 +274,8 @@ span .dropdown:hover {
 .cats {
     display: inline-block;
     text-align: center;
-    height: 350px; 
-    margin: 0px 100px 100px 60px;
+    width: 500;
+    height: 400px;
     background: url("../images/cats.jpg");   
     background-position: center;
     background-repeat: no-repeat;
@@ -318,8 +290,8 @@ span .dropdown:hover {
 .les-miserables {
     display: inline-block;
     text-align: center; 
-    height: 350px;
-    margin: 0px 100px 100px 60px;
+    width: 500;
+    height: 400px;
     background: url("../images/les-miserables.jpg");  
     background-position: center;
     background-repeat: no-repeat; 
@@ -334,8 +306,8 @@ span .dropdown:hover {
 .phantom {
     display: inline-block;
     text-align: center; 
-    height: 350px;
-    margin: 0px 100px 100px 60px;
+    width: 500;
+    height: 400px;
     background: url("../images/phantom.jpg");  
     background-position: center;
     background-repeat: no-repeat; 
@@ -398,6 +370,7 @@ h4 {
     color:#fff;
     text-align: center;
     padding: 50px;
+    margin-bottom: 2%;
 }
 
 /*-----------------------------------------------------Footer*/

@@ -32,13 +32,15 @@ https://www.google.com/search?q=frankfurt+skyline+night&rlz=1CASOCA_enDE872&sxsr
 
 Ballet.png, Choir.png and Orchestra.png illustrated by my niece Aoife Galvin-Wilson (aka @ZombieNue on Instagram and Youtube)
 
+https://dancetabs.com/2018/11/gallery-royal-ballet-in-la-bayadere-2/
+
 https://www.pinterest.com/pin/144115256813854981/ - CATS musical
 
 https://muslimmatters.org/2013/02/21/empathizing-with-catastrophe-les-miserables-and-human-suffering/ - Les Miserables musical
 
 http://www.classical-music.com/article/best-recordings-monteverdi - Monteverdi Image
 
-https://www.pinterest.com/pin/53339576810366636/ - Sheet Music - Christmas Carol
+https://www.frenchasyoulikeit.com/learnfrenchchristmascarols/ - Christmas Carol
 
 https://en.wikipedia.org/wiki/London_Symphony_Orchestra
 
