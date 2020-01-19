@@ -13,6 +13,15 @@ First front-end milestone project.
 Users should be able to see whats on when how much it costs and book a ticket for an event at the theater.
 
 ## Features
+Webpage Layout:
+- Fixed header containing title and navigation bar. Background colour is #70ae98 and the writing is black Roboto font of weight 100.
+- The logo is a night image of the skyline of Frankfurt/Main.
+- Event section: 15 events with an image and description inline along with a 'book now' button under the description. Descriptions are coloured white.
+- A google map plus address, telephone and email address in block format as contact details.
+- A youtube video of a rock band as an upcoming event.
+- Full width footer with clickable social media icons. Background colour is #70ae98 with the icons styled in colour #2a2a2a.
+- Background colour between header and footer is #2a2a2a.
+- Font used throughout is Roboto.
 
 ### Existing Features
 - Simple general layout and typography.
@@ -30,6 +39,7 @@ Users should be able to see whats on when how much it costs and book a ticket fo
 - the active selector on the nav items is not currently working - the idea is to mark the page the user is on.
 - images are not scaling down with the pages correctly.
 - the logo vanishes when scaling down.
+- media query code not overwriting CSS/Bootstrap.
 
 2. Logo transition on hover as on: https://www.victorianopera.com.au/ to be added. 
 
@@ -44,7 +54,7 @@ Created using:
 
 ## Testing
 
-Testing for responsive behavious via Google Chrome Developer Tools.
+Testing for responsive behaviour via Google Chrome Developer Tools.
 
 
 ## Deployment
