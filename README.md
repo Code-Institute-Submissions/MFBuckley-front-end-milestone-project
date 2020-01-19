@@ -10,31 +10,31 @@ A Youtube video of an up and coming band (friends of mine) is listed as an upcom
 Course: Full Stack Web Developer - Code Institute Dublin Ireland.
 First front-end milestone project.
 
-#UX
+## UX
 Users should be able to see whats on when how much it costs and book a ticket
 
-##Features
+## Features
 
-###Existing Features
+### Existing Features
 
-###Features Left to Implement
+### Features Left to Implement
 
-##Technologies Used
+## Technologies Used
 
 Created using HTML,CSS & Bootstrap.
 
-##Testing
+## Testing
 
 Testing for responsive behavious via Google Chrome Developer Tools.
 
 
-##Deployment
+## Deployment
 
 Deployed to Github pages using the settings menu in Github repository.
 
-##Credits
+## Credits
 
-###Content
+### Content
 
 
 https://getbootstrap.com/docs
@@ -47,7 +47,7 @@ https://en.wikipedia.org/wiki/List_of_female_composers_by_birth_date#1701%E2%80%
 
 https://www.cennarium.com/blog/7-all-time-famous-ballets/
 
-###Image References
+### Image References
 
 Ballet.png, Choir.png and Orchestra.png illustrated by my niece Aoife Galvin-Wilson (aka @ZombieNue on Instagram and Youtube)
 
@@ -71,7 +71,7 @@ https://www.amazon.com/Lady-Windermeres-Fan-about-Woman/dp/1983728659
 https://en.wikipedia.org/wiki/Much_Ado_About_Nothing#/media/File:Much_Ado_About_Nothing_by_Alfred_Elmore_1846.jpg
 
 
-###Inspiration
+### Inspiration
 A personal interest in Culture and the Arts and...
 
 https://www.victorianopera.com.au/
