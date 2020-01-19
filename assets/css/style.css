@@ -10,11 +10,9 @@ body {
 
 
 
-
 /*----------------------------------------------------Header*/
 header {
     background-color: #70ae98;
-    font-family: "Roboto", sans-serif;
     position: fixed;
     width: 100%;
     height: auto;
@@ -41,6 +39,11 @@ h1 {
     text-decoration: none;
 }
 
+.list-inline-item a:hover {
+    
+    background-color: #2a2a2a;
+}
+
 .list-inline-item a:active {
     color: #70ae98;
     background-color: #2a2a2a;
@@ -48,7 +51,6 @@ h1 {
 
 span {
     color: #000;
-    font-family: "Roboto", sans-serif;
     font-weight: 100;
 }
 
@@ -61,10 +63,9 @@ span {
 /*-----------------------------------------------------Home*/
 .logo {
     background: url("../images/frankfurt-skyline1.jpg") no-repeat center;
-    position: relative;
-    width: 70%;
     z-index: 0;
     padding-top: 70%;
+    margin-bottom: 8rem;
 }
 
 
@@ -74,239 +75,148 @@ span {
 
 .container {
     color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
 }
 
+.col-md-6 {
+    padding: 50px;
+}
+
+#events {
+    margin-bottom: 6rem;
+}
 /*----Styled first the image then the descriptions in all 15 events----*/
 .cinderella {
-    background: url("../images/ballet.png");
-    background-repeat: no-repeat;  
+    background: url("../images/ballet.png") no-repeat;  
     display: inline-block;
     width: 500px;
     height: 400px;  
 }
-.cinderella-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;   
-}
+
 
 
 .swan-lake {
-    background: url("../images/swan_lake.jpg"); 
-    background-repeat: no-repeat;
+    background: url("../images/swan_lake.jpg") no-repeat; 
     display: inline-block;
     width: 500px;
     height: 400px;      
 }
-.swan-lake-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .la-bayadere  {
-    background: url("../images/la_bayadere.jpg");
-    background-repeat: no-repeat;
+    background: url("../images/la_bayadere.jpg") no-repeat;
     display: inline-block;
     width: 500px;
     height: 400px;
 }
-.la-bayadere-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .nativity {
-    background: url("../images/nativity.jpg"); 
+    background: url("../images/nativity.jpg") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500px;
     height: 400px;     
 }
-.nativity-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
-
 
 .lady-windermere {
-    background: url("../images/lady_windermere.jpg");
+    background: url("../images/lady_windermere.jpg") no-repeat;
     display: inline-block;
-    background-repeat: no-repeat; 
     width: 500px;
     height: 400px;       
 }
-.lady-windermere-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
-
 
 .much-ado {
-    background: url("../images/much_ado.jpg"); 
+    background: url("../images/much_ado.jpg") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500px;
     height: 400px;      
 }
-.much-ado-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .clara-schumann {
-    background: url("../images/orchestra.png"); 
+    background: url("../images/orchestra.png") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat; 
     width: 500px;
     height: 400px;   
 }
-.clara-schumann-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .classical {
-    background: url("../images/composers.png"); 
+    background: url("../images/composers.png")no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500;
     height: 400px;      
 }
-.classical-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .symphony {
-    background: url("../images/symphony.jpg"); 
-    display: inline-block;
-    background-repeat: no-repeat; 
+    background: url("../images/symphony.jpg") no-repeat; 
+    display: inline-block; 
     width: 500px;
     height: 400px;          
 }
-.competition-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .gospel-choir {
-    background: url("../images/choir.png");
+    background: url("../images/choir.png")no-repeat;
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500px;
     height: 400px;    
 }
-.gospel-choir-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .monteverdi-choir {
-    background: url("../images/monteverdi.jpg"); 
+    background: url("../images/monteverdi.jpg") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat; 
     width: 500;
     height: 400px;   
 }
-.monteverdi-choir-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .wells-choir {
-    background: url("../images/carols.jpg"); 
+    background: url("../images/carols.jpg") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500;
     height: 400px;   
 }
-.wells-choir-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 
 
 .cats {
-    background: url("../images/cats.jpg");
+    background: url("../images/cats.jpg") no-repeat;
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500px;
     height: 400px;    
-}
-.cats-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
 }
 
 
 .les-miserables {
-    background: url("../images/les-miserables.jpg"); 
+    background: url("../images/les-miserables.jpg") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat; 
     width: 500px;
     height: 400px;   
 }
-.les-miserables-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
-
 
 .phantom {
-    background: url("../images/phantom.jpg"); 
+    background: url("../images/phantom.jpg") no-repeat; 
     display: inline-block;
-    background-repeat: no-repeat;
     width: 500px;
     height: 400px; 
     margin-bottom: 5rem;    
 }
-.phantom-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
+
 /*-----------------------------------------------------End of Events*/
 
-
-/*-----------------------------------------------------Coming Soon*/
-.coming-soon {
-    display: inline-block;
-    width: 500px;
-    height: 400px;
-    margin-bottom: 5rem; 
-    padding: 50px;   
-}
-
-.coming-soon-description {
-    font-family: "Roboto", sans-serif;
-    text-align: center; 
-    padding: 50px;
-}
-
-#upcoming {
-    margin: 50px;
-}
 /*-----------------------------------------------------Booking Form*/
 .center-form {  
     padding-top: 15%;
@@ -318,29 +228,39 @@ span {
 .form-row {
     color: #fff;
 }
-
-
-
-
-/*-----------------------------------------------------Contact*/
-
-.googlemap {  
-    display: inline-block;
-    margin-bottom: 5rem;
-}
-
-.contact {
-    font-family: "Roboto", sans-serif;
-    color:#fff;
-    text-align: center;
-    padding: 50px;
-
+/*-----------------------------------------------------Iframes*/
+/*---Iframe: Google map and Youtube video----------------*/
+iframe {
+    display: block;
+    margin: 0 auto;
     
 }
 
-#map {
-    margin: 50px;
+/*-----------------------------------------------------Contact*/
+
+
+.contact {
+    margin-top: 15rem;
+    
+     
 }
+
+.googlemap {
+    margin-bottom: 10rem;
+    padding: 50px;
+}
+
+
+
+/*-----------------------------------------------------Upcoming*/
+
+.coming-soon { 
+    margin-bottom: 5rem; 
+    padding: 50px;   
+}
+
+
+
 
 /*-----------------------------------------------------Footer*/
 
@@ -363,8 +283,8 @@ ul {
     
     margin: 1%;
     color:#2a2a2a;
-    letter-spacing: 40px;
+    letter-spacing: 2rem;
 }
 
-
+@media and 
 

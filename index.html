@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Frankfurt Theater House</title>
 </head>
@@ -24,17 +25,17 @@
         <div class="row">  
             <div class="col">
                 <ul class="text-center list-inline menucontainer">
-                    <li class="col list-inline-item menuitem active">
+                    <li class="col list-inline-item ui-bg-color-home active">
                     <a href="index.html#logo"><span>Home</span></a>                        
                     </li>                    
-                    <li class="col list-inline-item menuitem active">
-                    <a href="index.html"><span>Events</a>
+                    <li class="col list-inline-item ui-bg-color-home active">
+                    <a href="index.html#events"><span>Events</a>
                     </li>                    
-                    <li class="col list-inline-item menuitem active">
+                    <li class="col list-inline-item ui-bg-color-home active">
                     <a href="booking-page.html" target="_blank"><span>Booking</span></a>                        
                     </li>                   
-                    <li class="col list-inline-item menuitem active">
-                    <a href="index.html#map"><span>Contact</span></a>
+                    <li class="col list-inline-item ui-bg-color-home active">
+                    <a href="index.html#location-description"><span>Contact</span></a>
                     </li>    
                      <li class="col list-inline-item menuitem active">
                     <a href="index.html#upcoming"><span>Upcoming</span></a>
@@ -55,7 +56,7 @@
 <!--Examples of Ballets, Plays, Instrumental Music, Choirs, Musicals in individual containers-->
 <!---Each Bootstrap row contains 2 columns --------------------------------------->
 
-    <section id="ytvid" class="container">
+    <section class="container">
         <div class="row">
             <div  class="col text-center text-white">
             <h1 id="events">Events</h1>
@@ -65,10 +66,9 @@
     
     <section class="container">
         <div class="row">
-            <div class="col-md-6 cinderella">
-              
+            <div class="col-md-6 cinderella">              
             </div>
-            <div class="col-md-6 cinderella-description">
+            <div class="col-md-6">
                 <h2>Cinderella</h2>
                 <p>The enchanting Brothers Grimm fairytale. Performed by Frankfurt Youth Ballet. Tickets €15.</p>
                 <a class="btn btn-danger" href="booking-page.html" role="button">Book Now</a>
@@ -79,7 +79,7 @@
          <div class="row">
             <div class="col-md-6 swan-lake">            
             </div>
-            <div class="col-md-6 swan-lake-description">
+            <div class="col-md-6">
                 <h2>Swan Lake</h2>
                 <p>The story of a princess turned into a swan by an evil sorcerer's curse. Performed by the Royal Ballet. 
                 Composed by Pyotr Ilyich Tchaikovsky. Tickets €15.</p>
@@ -89,9 +89,9 @@
     </section>
     <section class="container">
         <div class="row">
-            <div class="col-md-6 la-bayadere">               
+            <div class="col-md-6 col-sm la-bayadere">               
             </div>
-            <div class="col-md-6 la-bayadere-description">
+            <div class="col-md-6">
                 <h2>La Bayadère</h2>
                 <p> The story of the temple dancer Nikiya and the warrior Solor. Performed by the Imperial Ballet. 
                 Music composed by Ludwig Minkus. Tickets €15.</p>
@@ -104,7 +104,7 @@
             <div class="col-md-6 nativity">
                
             </div>
-            <div class="col-md-6 nativity-description">
+            <div class="col-md-6">
                 <h2>The Nativity</h2>
                 <p>A play about the birth of Jesus Christ. Performed by Theatergruppe Frankfurt. Tickets €15.</p>
                 <a class="btn btn-danger" href="booking-page.html" role="button">Book Now</a>
@@ -116,7 +116,7 @@
             <div class="col-md-6 lady-windermere">
                 
             </div>
-            <div class="col-md-6 lady-windermere-description">
+            <div class="col-md-6">
                 <h2>Lady Windermere's Fan</h2>
                 <p>A Play about a Good Woman. Performed by Theatergruppe Frankfurt. Written by Oscar Wilde. Tickets €15.</p>
                 <a class="btn btn-danger" href="booking-page.html" role="button">Book Now</a>
@@ -128,7 +128,7 @@
             <div class="col-md-6 much-ado">
                
             </div>
-            <div class="col-md-6 much-ado-description">
+            <div class="col-md-6">
                 <h2>Much Ado About Nothing</h2>
                 <p>A comedy about gossip, rumour and overhearing. Performed by Theatergruppe Frankfurt. 
                 Written by William Shakespeare. Tickets €15.</p>
@@ -141,7 +141,7 @@
             <div class="col-md-6 clara-schumann">
                 
             </div>
-            <div class="col-md-6 clara-schumann-description">
+            <div class="col-md-6">
                 <h2>A Tribute to Clara Schumann</h2>
                 <p>Frankfurt Youth Orchestra perform a selection of works by the classical composer and pianist Clara Schumann.
                 Tickets €15.</p>
@@ -154,7 +154,7 @@
             <div class="col-md-6 classical">
                 
             </div>
-            <div class="col-md-6 classical-description">
+            <div class="col-md-6">
                 <h2>Classical Evening</h2>
                 <p>Frankfurt Orchestra play a selected mix of works by 
                 both male and female classical composers from down through the ages. Tickets €15.</p>
@@ -167,7 +167,7 @@
             <div class="col-md-6 symphony">
                
             </div>
-            <div class="col-md-6 competition-description">
+            <div class="col-md-6">
                 <h2>Competition Time</h2>
                 <p>Have your say on Vienna Philharmonic Orchestra vs. London Symphony Orchestra. 
                 Which orchestra appeals more to you. Tickets €15.</p>
@@ -180,7 +180,7 @@
             <div class="col-md-6 gospel-choir">
                
             </div>
-            <div class="col-md-6 gospel-choir-description">
+            <div class="col-md-6">
                 <h2>Gospel Choir</h2>
                 <p>Frankfurt Gospel Choir performing songs from the soundtrack to the movie Sister Act.
                     Music by Alan Menken and Lyrics by Glenn Slater. Tickets €15.</p>
@@ -193,7 +193,7 @@
             <div class="col-md-6 monteverdi-choir">
                 
             </div>
-            <div class="col-md-6 monteverdi-choir-description">
+            <div class="col-md-6">
                 <h2>Monteverdi Choir</h2>
                 <p>This specialist Baroque ensemble performs an extensive array from the 
                 Renaissance to classical music of the 20th century. Tickets €15.</p>
@@ -205,7 +205,7 @@
         <div class="row">
             <div class="col-md-6 wells-choir">   
             </div>
-            <div class="col-md-6 wells-choir-description">
+            <div class="col-md-6">
                 <h2>Wells Cathedral Choir</h2>
                 <p>Join this youth choir as they Christmas carol their way through the beginning of the New Year.
                 Tickets €15.</p>
@@ -217,7 +217,7 @@
         <div class="row">
             <div class="col-md-6 cats">            
             </div>
-            <div class="col-md-6 cats-description">
+            <div class="col-md-6">
                 <h2>Cats the Musical</h2>
                 <p>This musical composed by Andrew Lloyd Webber, tells the story of a tribe of cats called the jellicles.
                 Tickets €15.</p>
@@ -229,7 +229,7 @@
         <div class="row">
             <div class="col-md-6 les-miserables">        
             </div>
-            <div class="col-md-6 les-miserables-description">
+            <div class="col-md-6">
                 <h2>Les Misérables</h2>
                 <p>A musical adaptation of a novel by Victor Hugo. The story of Jean Valjean a French peasant, 
                 and his desire for redemption after serving nineteen years in jail 
@@ -242,7 +242,7 @@
          <div class="row">
             <div class="col-md-6 phantom">   
             </div>
-            <div class="col-md-6 phantom-description">
+            <div class="col-md-6">
                 <h2>Phantom of the Opera</h2>
                 <p>A novel by Gaston Leroux adapted to a musical by Andrew Lloyd Webber. The Palais Garnier is believed to be haunted by the Phantom. 
                 This is the story of Erik the son of a construction business owner, deformed from birth. Tickets €15.</p>
@@ -254,32 +254,26 @@
 
     
 <!----------------------------------------------------------------------------------Contact-->
-<!---Google map and address, email, telephone details --------------------------------------->
-         <div class="row">
-            <div id="map" class="col text-center text-white">
-            <h1 id="contact">Contact</h1>
-            </div>
-        </div>
-
+<!---Row containing Contact heading, address, telephone, email address details------->
     <section class="container">
+         <div id="location-description" class="row">
+            <div  class="col contact text-center">
+                <h1 id="contact">Contact</h1>
+                <ul>
+                    <li>Address: Löwengasse 27K, 60385 Frankfurt am Main</li>   
+                    <li>Telephone: (069) 2734679</li> 
+                    <li>Email: info@franfurttheaterhouse.com</li>
+                </ul>
+            </div>
+        </div>   
+        
+        </div>
+<!---Row containing Google Map ------------------------------------------------------->
         <div class="row">
-            <div class="col-md-6 googlemap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.7312781003884!2d8.71133371591189!3d50.12875021837313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ef26d147fb3%3A0x839a0ea74c5f1465!2sTheaterGrueneSosse!5e0!3m2!1sen!2sde!4v1576419066796!5m2!1sen!2sde" width="500" height="360" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="col googlemap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.7312781003884!2d8.71133371591189!3d50.12875021837313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ef26d147fb3%3A0x839a0ea74c5f1465!2sTheaterGrueneSosse!5e0!3m2!1sen!2sde!4v1576419066796!5m2!1sen!2sde" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
-            <div class="col-md-6 contact">
-                    <ul>
-                        <li>ADDRESS:</li>
-                        <li>Löwengasse 27K, 60385 Frankfurt am Main</li>
-                    </ul>                    
-                    <ul>
-                        <li>TEL:</li>
-                        <li>(069) 2734679</li>
-                    </ul>                    
-                    <ul>
-                        <li>EMAIL:</li>
-                        <li>info@franfurttheaterhouse.com</li>
-                    </ul>
-            </div>
+        </div>    
     </section>
 
 <!----------------------------------------------------------------------------------Upcoming-->
@@ -287,22 +281,18 @@
 
     <section class="container">
         <div class="row">
-            <div class="col text-center text-white">
-            <h1 id="upcoming">Upcoming</h1>
-            </div>
-        </div>
-    </section>
-    <section  class="container">        
-        <div class="row">
-            <div class="col-md-6 coming-soon">
-                
-                <iframe width="500" height="360" src="https://www.youtube.com/embed/4hCAZimJL8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-            </div>
-            <div class="col-md-6 coming-soon-description">
+            <div class="col text-center text-white">            
+                <h1 id="upcoming">Upcoming</h1>
                 <h2>Megacone</h2>
                 <p>A young Irish instrumental rockband performing live. Here's a taste! 
                 Performance dates to be confirmed.Tickets €15.</p>
             </div>
+        </div>    
+        <div class="row">
+            <div class="col coming-soon">  
+                <iframe src="https://www.youtube.com/embed/4hCAZimJL8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            </div>
+            
         </div>
     </section>
 
