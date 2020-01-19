@@ -10,7 +10,7 @@ A Youtube video of an up and coming band (friends of mine) is listed as an upcom
 Course: Full Stack Web Developer - Code Institute Dublin Ireland.
 First front-end milestone project.
 
-##UX
+#UX
 Users should be able to see whats on when how much it costs and book a ticket
 
 ##Features
