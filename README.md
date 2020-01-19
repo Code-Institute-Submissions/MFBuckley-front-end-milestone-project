@@ -56,10 +56,13 @@ Created using:
 
 Testing for responsive behaviour via Google Chrome Developer Tools.
 
+Tested on Safari browser also - some code adjustments needed.
 
 ## Deployment
 
-Deployed to Github Pages using the settings menu in Github repository.
+Deployed to Github Pages using the settings menu in Github repository respresenting the shortly before last deployment.
+No major variations on website. hereafter.
+Readme file and media query section of CSS code not present.
 
 ## Credits
 
