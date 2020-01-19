@@ -2,13 +2,17 @@
 Course: Full Stack Web Developer - Code Institute Dublin Ireland.
 First front-end milestone project.
 
-Fake Theater Website showing whats on, when, location and booking.
+Theater Website for a mock-up theater in Frankfurt am Main. 
+The website shows whats on using images and short descriptions including the time date and cost of admission for the performance.
+Additional info provided via Googlemaps show the location of a (random theater) here in Frankfurt am Main.
+Address, telephone number and email address are also listed.
+A Youtube video of an up and coming band (friends of mine) is listed as an upcoming performance.
+
 Created using HTML,CSS & Bootstrap.
 
-Inspiration
-A personal interest in Culture and the Arts and...
 
-https://www.victorianopera.com.au/
+
+
 
 
 
@@ -51,3 +55,7 @@ https://www.amazon.com/Lady-Windermeres-Fan-about-Woman/dp/1983728659
 https://en.wikipedia.org/wiki/Much_Ado_About_Nothing#/media/File:Much_Ado_About_Nothing_by_Alfred_Elmore_1846.jpg
 
 
+Inspiration
+A personal interest in Culture and the Arts and...
+
+https://www.victorianopera.com.au/

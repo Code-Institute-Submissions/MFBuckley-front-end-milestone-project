@@ -45,6 +45,10 @@ h1 {
     color: #70ae98;
 }
  
+.menucontainer .list-inline-item a span:active {
+    background-color: #000;
+    color: #fff;
+}
 
 span {
     color: #000;
@@ -87,7 +91,10 @@ span {
     height: 400px;
     
 }
-
+.col-sm {
+    padding: 0;
+    margin: 0;
+}
 
 
 #events {
@@ -251,8 +258,6 @@ iframe {
 }
 
 
-
-
 /*-----------------------------------------------------Footer*/
 
 
@@ -275,5 +280,17 @@ ul {
     
 }
 
-@media and 
+@media only screen and (min-width: 992px) {
+  .col-md-6 {
+      padding: 0;
+      margin: 0;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  header h1 {
+      z-index: 0;
+  }
+}
 
