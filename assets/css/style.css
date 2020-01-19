@@ -52,9 +52,9 @@ span {
 }
 
 .navbar i {
-    
-    top: 1px;
-    right: 10px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
 }
 
 
@@ -202,7 +202,6 @@ span {
 .phantom {
     background: url("../images/phantom.jpg") no-repeat; 
     display: inline-block;
-     
     margin-bottom: 5rem;    
 }
 
@@ -211,9 +210,9 @@ span {
 /*-----------------------------------------------------Booking Form*/
 .center-form {  
     padding-top: 15%;
-    margin: 0 auto;
+    margin: auto;
     max-width: 50%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .form-row {
@@ -261,8 +260,8 @@ footer {
     background-color: #70ae98;
     text-align: center;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    
+    
 }
 
 ul {
