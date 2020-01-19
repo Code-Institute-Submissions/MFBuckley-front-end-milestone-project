@@ -18,32 +18,35 @@
             <div class="col">
                 <h1 id="heading">Frankfurt Theater House</h1>
             </div>
-        </div>
+        
 <!----------------------------------------------------------------------------------Nav Bar--> 
 <!---One Bootstrap row with a list of 5 columns--------------------------------------->  
 <!---Columns Home, Booking, Contact, Upcoming contain links ---------------------------------------> 
-        <div class="row">  
-            <div class="col menucontainer">
-                <ul class="text-center list-inline">
-                    <li class="col list-inline-item">
-                    <a href="index.html#logo"><span>Home</span></a>                        
+        <div class="navbar navbar-expand-md" role="navigation"> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+            </button> 
+            <div class="col menucontainer collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="text-center list-inline navbar-nav mr-auto">
+                    <li class="col list-inline-item nav-item active">
+                    <a class="nav-link" href="index.html#logo"><span>Home</span></a>                        
                     </li>                    
                     <li class="col list-inline-item">
-                    <a href="index.html#events"><span>Events</a>
+                    <a class="nav-link" href="index.html#events"><span>Events</a>
                     </li>                    
-                    <li class="col list-inline-item">
-                    <a href="booking-page.html" target="_blank"><span>Booking</span></a>                        
+                    <li class="col list-inline-item nav-item active">
+                    <a class="nav-link" href="booking-page.html" target="_blank"><span>Booking</span></a>                        
                     </li>                   
-                    <li class="col list-inline-item">
-                    <a href="index.html#location-description"><span>Contact</span></a>
+                    <li class="col list-inline-item nav-item active">
+                    <a class="nav-link" href="index.html#location-description"><span>Contact</span></a>
                     </li>    
-                     <li class="col list-inline-item">
-                    <a href="index.html#upcoming"><span>Upcoming</span></a>
+                     <li class="col list-inline-item nav-item active">
+                    <a class="nav-link" href="index.html#upcoming"><span>Upcoming</span></a>
                     </li>                   
                 </ul>
              </div>
         </div>
-        
+        </div>
     </header>
 <!----------------------------------------------------------------------------------Home-->
 <!---I chose the iconic nighttime view of the skyline of Frankfurt am Main as my logo----->
@@ -55,6 +58,7 @@
 <!----------------------------------------------------------------------------------Events-->
 <!--Examples of Ballets, Plays, Instrumental Music, Choirs, Musicals in individual containers-->
 <!---Each Bootstrap row contains 2 columns --------------------------------------->
+<!--Book Now button copied from https://getbootstrap.com/docs/4.0/components/buttons/---->
 
     <section class="container">
         <div class="row">

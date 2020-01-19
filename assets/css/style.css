@@ -33,34 +33,29 @@ h1 {
 /*----------------------------------------------------Nav bar*/
 .list-inline-item {
     display: inline;
+    
 }
 
 .list-inline-item a {
     text-decoration: none;
 }
 
-.menucontainer .list-inline-item a:hover {  
+.menucontainer .list-inline-item a span:hover {  
     background-color: #2a2a2a;
+    color: #70ae98;
 }
-
-.menucontainer .list-inline-item span:hover {
-    color:#70ae98;
-}
-
- .menucontainer .list-inline-item a:active {   
-    background-color: #2a2a2a;
-}
-
-.menucontainer .list-inline-item span:active {
-    color:#70ae98;
-}
+ 
 
 span {
     color: #000;
     font-weight: 100;
 }
 
-
+.navbar i {
+    
+    top: 1px;
+    right: 10px;
+}
 
 
 
@@ -224,6 +219,8 @@ span {
 .form-row {
     color: #fff;
 }
+
+
 /*-----------------------------------------------------Iframes*/
 /*---Iframe: Google map and Youtube video----------------*/
 iframe {
@@ -263,7 +260,9 @@ iframe {
 footer {
     background-color: #70ae98;
     text-align: center;
-    
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 ul {
